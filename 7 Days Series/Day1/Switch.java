@@ -1,8 +1,13 @@
+import java.util.Scanner;
+
 public class Switch
 {
   public static void main(String arg[])
   {
-    int month = 11;
+
+    System.out.print("Enter Month: ");
+    Scanner sc = new Scanner(System.in);
+    int month = sc.nextInt();
 
     switch(month)
     {
